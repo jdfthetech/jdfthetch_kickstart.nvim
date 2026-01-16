@@ -81,7 +81,6 @@ If you're using `fish`:
 
 ```
 gh repo clone nvim-lua/kickstart.nvim ~/.config/nvim
-
 ```
 
 </details>
