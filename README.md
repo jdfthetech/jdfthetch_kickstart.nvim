@@ -75,6 +75,13 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 
 ```sh
 git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+
+```
+If you're using `fish`:
+
+```
+gh repo clone nvim-lua/kickstart.nvim ~/.config/nvim
+
 ```
 
 </details>
@@ -85,6 +92,7 @@ If you're using `cmd.exe`:
 
 ```
 git clone https://github.com/nvim-lua/kickstart.nvim.git "%localappdata%\nvim"
+
 ```
 
 If you're using `powershell.exe`
